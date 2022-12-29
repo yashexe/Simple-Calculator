@@ -14,4 +14,4 @@ Contains functionaility for:
 - Delete 
 - sin/cos/tan
 - Answer
-- Return Answer# Simple-Calculator
+- Return Answer
