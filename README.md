@@ -1,6 +1,6 @@
 # Simple Calculator app
 
-Crunch numbers with the Simple Calculator [here!](https://yashexe.guthub.io/Simple-Calculator)
+Crunch numbers with the Simple Calculator [here!](https://yashexe.github.io/Simple-Calculator/)
 
 Contains functionaility for:
 - Addition
