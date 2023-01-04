@@ -1,6 +1,6 @@
 # Simple Calculator app
 
-Available at: https://yashexe.github.io/simpleCalculator
+Available at: https://yashexe.github.io/Simple-Calculator
 
 Contains functionaility for:
 - Addition
