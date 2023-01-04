@@ -32,58 +32,71 @@ const App = () => {
   return (
     
     <div className="App">
-      <div className='space'></div>
+      <div id="star">
+        <div id="stars">
+          <div id="stars1"></div>                              
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div id="blipstars"></div>
+        </div>
+        <div id="stars01">
+          <div id="stars1"></div>                              
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div id="blipstars"></div>
+        </div>
+      </div>
       <div className='calc-wrapper'>
+        <div className='calc-wrapper-two'>
+          <Input text={text} result={result}/>{/* #38b834 */}
 
-        <Input text={text} result={result}/>
-{/* #38b834 */}
-        <div className='row'>
-          <Button symbol='^' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='^(1/2)' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='log' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='ln' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='e' handleClick={addToText} color = '#38312e' />
-        </div>
-        <div className='row'>
+          <div className='row'>
+            <Button symbol='^' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='^(1/2)' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='log' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='ln' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='e' handleClick={addToText} color = '#38312e' />
+          </div>
+          <div className='row'>
 
-          <Button symbol='sin' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='cos' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='tan' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='(' handleClick={addToText} color = '#38312e'/>
-          <Button symbol=')' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='sin' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='cos' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='tan' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='(' handleClick={addToText} color = '#38312e'/>
+            <Button symbol=')' handleClick={addToText} color = '#38312e'/>
 
-        </div>
-        <div className='row'>
-          <Button symbol='7' handleClick={addToText}/>
-          <Button symbol='8' handleClick={addToText}/>
-          <Button symbol='9' handleClick={addToText}/>
-          <Button symbol='ANS' handleClick={getAnswer} color = '#38312e'/>
-          <Button symbol='=' handleClick={calculateResult} color = "#38312e"/>
-        </div>
+          </div>
+          <div className='row'>
+            <Button symbol='7' handleClick={addToText}/>
+            <Button symbol='8' handleClick={addToText}/>
+            <Button symbol='9' handleClick={addToText}/>
+            <Button symbol='ANS' handleClick={getAnswer} color = '#38312e'/>
+            <Button symbol='=' handleClick={calculateResult} color = "#38312e"/>
+          </div>
 
-        <div className='row'>
-          <Button symbol='6' handleClick={addToText}/>
-          <Button symbol='5' handleClick={addToText}/>
-          <Button symbol='4' handleClick={addToText}/>
-          <Button symbol='*' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='/' handleClick={addToText} color = '#38312e'/>
-        </div>
+          <div className='row'>
+            <Button symbol='6' handleClick={addToText}/>
+            <Button symbol='5' handleClick={addToText}/>
+            <Button symbol='4' handleClick={addToText}/>
+            <Button symbol='*' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='/' handleClick={addToText} color = '#38312e'/>
+          </div>
 
-        <div className='row'>
-          <Button symbol='3' handleClick={addToText}/>
-          <Button symbol='2' handleClick={addToText}/>
-          <Button symbol='1' handleClick={addToText}/>
-          <Button symbol='+' handleClick={addToText} color = '#38312e'/>
-          <Button symbol='-' handleClick={addToText} color = '#38312e'/>
-        </div>
+          <div className='row'>
+            <Button symbol='3' handleClick={addToText}/>
+            <Button symbol='2' handleClick={addToText}/>
+            <Button symbol='1' handleClick={addToText}/>
+            <Button symbol='+' handleClick={addToText} color = '#38312e'/>
+            <Button symbol='-' handleClick={addToText} color = '#38312e'/>
+          </div>
 
-        <div className='row'>
+          <div className='row'>
             <Button symbol='0' handleClick={addToText}/>
             <Button  symbol='.' handleClick={addToText}/>
             <Button symbol='*10^' handleClick={addToText} />
             <Button  symbol='DEL' handleClick={deleteRecent} color = "#D17159" />
             <Button  symbol='AC' handleClick={resetInput} color = "#D17159" />
-
+          </div>
         </div>
       </div>
     </div>
@@ -91,3 +104,4 @@ const App = () => {
 }
 
 export default App;
+
