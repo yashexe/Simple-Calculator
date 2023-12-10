@@ -1,5 +1,6 @@
-# :heavy_plus_sign:Welcome to the Simple Calculator!:heavy_minus_sign:
-
+# Welcome to the Simple Calculator!
+:heavy_minus_sign:
+:heavy_plus_sign: 
 With this app, you can perform a variety of mathematical operations with ease. From basic addition and subtraction to more advanced functions like logarithms and 
 trigonometry, the Simple Calculator has you covered.
 
